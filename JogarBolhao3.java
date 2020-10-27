@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Joao Miranda nº47143;
+ * @author Joao Miranda 
  *
  *
  */
@@ -55,7 +55,7 @@ public class JogarBolhao3 {
 
 
 		//Inicio do ciclo que ira correr enquanto houver algum mau vivo
-		// se não tiver sido feito o numero maximo de jogadas 
+		// se não tiver sido feito o numero maximo de jogadas 
 		while (mausVivos(posMaus) != 0 && jogadas < maxVezes) {
 
 			//Impressao do caminho e a posicao atual do aviao
@@ -76,7 +76,7 @@ public class JogarBolhao3 {
 			int forcaImpacto = aviaoY / 2;
 			int posImpacto = aviaoX;
 
-			//Escrever no ecra a força e a posicao de impacto do Bolhao;
+			//Escrever no ecra a força e a posicao de impacto do Bolhao;
 			System.out.println("Apohs impacto do Bolhao com forca "
 					+ forcaImpacto + " na posicao " + posImpacto + ":");
 
